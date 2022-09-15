@@ -1,0 +1,65 @@
+MAVEN - Chromedriver template
+
+Import:
+from Maven Repository
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumTest {
+
+    public static void main(String[] args) {
+
+
+        //1-Setting up Web driver manager
+        WebDriverManager.chromedriver().setup();
+
+
+        2 - instance       2 - Create up Constructor
+        WebDriver driver = new ChromeDriver();
+
+        3 - Get Method to Navigate to page
+        Test if driver is working
+        driver.get("https://www.google.com");
+
+
+    METHOD:
+    get("url");
+    This sill get the url inside of the get method
+    driver.get("https//www.google.com");
+
+    
+    SELENIUM NAVIGATIONS
+     back-> takes to previous page
+
+    SYNTAX
+    driver.navigate().back();
+    driver.navigate().forward();
+    driver.navigate().
+    driver.navigate().
+    
+
+
+
+
+
+
+        //name the method - get title
+
+        String title = driver.getTitle();
+        //get a title as a string using the title method
+
+        System.out.println("Title of the page " + title);
+
+        if(title.equals("Cydeo")){
+            System.out.println("test passed");
+        }else{
+            System.out.println("test failed");
+        }
+
+        //close driver after the page is done
+        driver.quit();
+
+
+
+
