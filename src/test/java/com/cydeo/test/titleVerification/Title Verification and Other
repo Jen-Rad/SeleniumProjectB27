@@ -1,0 +1,13 @@
+TITLE VERIFICATION
+w/If else
+
+driver.getTitle("htts://www.cydeo.com");
+
+        String expectedTitle = "Cydeo";
+        String actualTitle = driver.getTitle();
+
+        if(actualTitle.equals(expectedTitle)) {
+            System.out.println("Title verification is PASSED" +);
+        }else{
+            System.out.println("Title verification has failed");
+        }

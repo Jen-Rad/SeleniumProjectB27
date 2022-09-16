@@ -1,0 +1,125 @@
+HTML Info
+
+1. Paired tags  :
+- Paired tags have opening tag and closing tag.
+    syntax: <openingTag> CONTENT </closingTag>
+- ex: p, h, li, ul, ol, strong, em, u, html, head, body, title, tr, td
+
+2. Unpaired tags  :
+- These are also called self-closing tags.
+- They are just one part.
+        syntax: </selfClosing>
+        - ex: br, img, hr
+3.0
+Doctype declaration <!Doctype HTML
+        2. <html> </html>  tag : is the parent/ascendent of all other web elements
+
+        3. <head> </head>  tag : Everything that is not displayed on the page itself goes
+        inside of the <html>  tag, such as: title, links, font style
+
+        4. <body> </body>  tag:  Everything we want to display on the page goes inside of
+        the <body> tag
+
+        5.<title> </title>: everything inside - it is the page that comes up in the search engines
+            -also defines different pages of application
+            -displayed on browers tab itself
+            -we don't see the title in the page at all
+
+What is an ATTRIBUTE?
+            •Attributes provide additional information about given tag.
+            •We can have as many attributes as we want to have.
+            •Attributes will always go inside of the opening tag (if it is a paired tag)
+            •If it is unpaired tag (self-closing tag), it will go inside of the tag itself.
+            •syntax:
+            <openingTag attributeName1="attributeValue"
+            attributeName2="attributeValue"> CONTENT </closingTag>
+            </selfClosingTag attributeName1="attributeValue">
+            PRACTICE:
+            <a href="https://www.google.com"> Google </a>
+            1. WHAT IS THE TEXT OF THIS TAG? WHAT IS THE CONTENT, WHAT IS DISPLAYED ON THE PAGE?
+            - ”Google”
+            2.    WHAT IS THE ATTIRBUTE OF THIS WEB ELEMENT?
+            - href is the attribute of this web element
+            3.     WHAT IS THE ATTRIBUTE VALUE OF HREF?
+            - https://www.etsy.com
+            4.      WHAT IS THE TYPE OF THIS TAG?
+            - Anchor tag, <a> tag, link tag
+            TELLING WHAT IS WHAT FROM THE COLORS:
+            - PURPLE  : TAG NAME
+            - ORANGE  : ATTRIBUTE NAME
+            - BLUE  : ATTRIBUTE VALUE
+
+WHAT IS A WEB ELEMENT?
+•Every single thing we see on the page is a web element of its own.
+•Such as: links, buttons, input boxes, images, headers
+
+
+ANCHOR TAG : <a>
+
+•<a> tag allows us to create links on html page
+•<a> tag is a paired tag.
+•<a> tag MUST have an href attribute within.
+•The text passed inside of the href attribute's value will be where the user taken 
+
+<table> tag
+•This tag allows us to create HTML tables on the page
+•By itself it is not enough, we need to use <tr>, and <td> (<th>)
+•HTML tables are created first ROW BY ROW, than cells are created within rows.
+•Tables also should have head and body section.
+•<table> </table> : creates the table
+
+•<thead> </thead> : contains header information
+
+•<tbody> </tbody> : actual content of the table goes here
+
+•<tr> : - stands for "table row"
+- creates each row
+- however many tr we create, that many rows we will have in the table
+
+- •<td> : - stands for "table data"
+- allows us to create cells within the rows
+
+- •<th> : - stands for "table header"
+- allows us to crate cells just like <td> but it will also make the content "bolded" 
+and  "centered"
+
+<div> </div>
+•div tag is commonly used as a container to style group of web elements
+•it is a block element which means it goes all the way to right
+•it is just a container to group and apply different stylings, fonts, colors to web 
+elements.
+
+<span> </span>
+•span is very similar to div.
+•it is used as smaller container to give certain styling to parts of the web element 
+without disrupting the rest of the web element
+•span is inline element (not block element)
+
+<input>  tag: 
+•input tags are used to let user enter some form of input.
+•the type of the input accepted from user is determined by the value we pass into "type" 
+attribute.
+
+syntax: <input type="text"> 
+--> to accept text from user
+<input type="password"> 
+--> to accept text from user,
+--> the text will be hidded as password
+<input type="button">
+--> to create button on the page
+<input type="checkbox"> 
+--> to create checkbox on the page
+<input type="radio"> 
+--> to create radio button on the page
+
+<select> </select>  tag:
+- Allows us to create dropdowns in the HTML page.
+- By itself it is not enough. We must use <option> tag to create different options 
+displayed for user.
+syntax:
+<select>
+
+<options> TEXT 1 </options>
+<options> TEXT 2 </options>
+<options> TEXT 3 </options>
+</select>
